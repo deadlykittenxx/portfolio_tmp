@@ -1,0 +1,464 @@
+/*** scene one : 배경 설명 + 데크 리서치 ***/
+
+.scene.one {
+    background-image: url(../img/SHAF/background01.jpg);
+}
+
+.scene.one .content .box{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.scene.one .content:first-child{
+    width: 40%;
+    padding-right: 2%;
+    float: left;
+    height: 100vh;
+}
+
+
+.scene.one .content:last-child{
+    width: 46%;
+    background-color: white;
+    float: right;
+    height: 100vh;
+    padding: 0 0 0 0 !important;
+}
+
+.scene.one .box.right .wrap{
+    width: 420px;
+    margin: 0 auto;
+}
+
+.scene.one img{
+    width: 200px;
+}
+
+.scene.one img:first-child{
+    margin: 0 auto;
+    margin-bottom:40px;
+}
+
+.scene.one .box.right .wrap img:nth-child(2){
+    margin-right: 20px;
+    float: left;
+}
+
+.scene.one .box.right .wrap img:last-child{
+    float: left;
+}
+
+
+
+
+/*** userInterview : 유저 인터뷰 ***/
+.userInterview .text{
+    text-align: center;
+}
+
+.userInterview .text .answer{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+
+#yes{
+    float: left;
+    color: black;
+    margin-right: 20px;
+}
+
+#yes::before {
+    content: '● ';
+    color: #949BF3;
+}
+
+#no{
+    float: left;
+    color: #D4D4D4;
+}
+
+
+.userInterview::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.userInterview .interview{
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.userInterview .interview ul:nth-child(2){
+    margin: 0 20px;
+}
+
+.userInterview .interview > ul{
+    text-align: left;
+    width: 30%;
+    float: left;
+}
+.userInterview .interview > ul > li:first-child{
+    margin-bottom: 10px;
+}
+
+.userInterview .interview > ul > li:first-child p{
+    font-weight: 500;
+}
+
+.userInterview .interview > ul > li > ul > li p::before{
+    content: '● ';
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+/*** affinityDiagram : 디자인 어피니티 다이어그램 ***/
+.affinityDiagram .content{
+    text-align: center;
+}
+
+.affinityDiagram .content #affinityDiagram{
+    display: inline-block;
+    width: auto;
+    margin: 0 auto;
+}
+
+.affinityDiagram .content #affinityDiagram p{
+    float: left;
+    box-sizing: border-box;
+    padding: 25px;
+    border: 1px solid;
+    border-radius: 600px;
+    margin: 25px 0px;
+
+}
+
+.affinityDiagram .content #affinityDiagram p:nth-child(2){
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.affinityDiagram .content #affinityDiagram p:nth-child(1):hover{
+    border-color: #949BF3;
+}
+
+.affinityDiagram .content #affinityDiagram p:nth-child(2):hover{
+    border-color: #EF5DA8;
+}
+
+.affinityDiagram .content #affinityDiagram p:nth-child(3):hover{
+    border-color: #EBB8D6;
+}
+
+.affinityDiagram .content img{
+    height: 50px;
+    width: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.affinityDiagram .content p {
+    text-align: center;
+}
+
+
+
+
+
+/*** persona : 페르소나 & 져니맵 ***/
+.persona p{
+    text-align: center;
+}
+
+.persona .content > p{
+    margin-bottom: 60px;
+}
+
+.persona::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.persona .wrap{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.persona .wrap:last-child{
+    margin-top: 100px;
+}
+
+
+.persona #persona{
+    float: left;
+    width: 350px;
+    margin-right: 50px;
+}
+
+.persona #persona > p:last-child{
+    text-align: justify;
+    color: #9d9d9d;
+}
+
+.persona #journeyMap{
+    float: left;
+    width: 500px;
+}
+
+
+.persona #persona img{
+    width: 100px;
+    margin: 0 auto;
+}
+
+.persona #journeyMap img{
+    width: 500px;
+}
+
+
+
+
+
+/*** designDirection : 디자인 다이렉션 ***/
+
+.designDirection .content #painPoint, 
+.designDirection .content #function, 
+.designDirection .content #value {
+    overflow: hidden;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.designDirection .content #painPoint > p, 
+.designDirection .content #function > p, 
+.designDirection .content #value > p {
+    width: 70px;
+    float: left;
+    margin-right: 0px;
+    text-align: left;
+}
+
+.designDirection .content #painPoint > ul, 
+.designDirection .content #function > ul, 
+.designDirection .content #value > ul {
+    width: 89%;
+    display: inline-block;
+    float: right; 
+}
+
+
+.designDirection .content #painPoint > ul > li, .designDirection .content #function > ul > li, .designDirection .content #value > ul > li{
+    float: left;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+}
+
+.designDirection .content #painPoint > ul > li:nth-child(2), .designDirection .content #function > ul > li:nth-child(2), .designDirection .content #value > ul > li:nth-child(2){
+    margin: 0 5%;
+}
+
+.designDirection .content #painPoint > ul > li:first-child > ul > li:hover, .designDirection .content #function > ul > li:first-child > ul > li:hover{
+    border: 1px #EF5DA8 solid;
+}
+
+.designDirection .content #value > ul > li:first-child > ul > li:first-child > p{
+    color: #EF5DA8;
+}
+
+.designDirection .content #painPoint > ul > li:nth-child(2) > ul > li:hover, .designDirection .content #function > ul > li:nth-child(2) > ul > li:hover{
+    border: 1px #949BF3 solid;
+}
+
+.designDirection .content #value > ul > li:nth-child(2) > ul > li:first-child > p{
+    color: #949BF3;
+}
+
+.designDirection .content #painPoint > ul > li:nth-child(3) > ul > li:hover, .designDirection .content #function > ul > li:nth-child(3) > ul > li:hover{
+    border: 1px #EBB8D6 solid;
+}
+
+.designDirection .content #value > ul > li:nth-child(3) > ul > li:first-child > p{
+    color: #EBB8D6;
+}
+
+.designDirection .content #painPoint > ul > li > ul > li, .designDirection .content #function > ul > li > ul > li, .designDirection .content #value > ul > li > ul > li{
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px black solid;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+.designDirection .content #painPoint > ul > li > ul > li:last-child, .designDirection .content #function > ul > li > ul > li:last-child, .designDirection .content #value > ul > li > ul > li:last-child{
+    margin-bottom: 0px;
+}
+
+.designDirection .content #value > ul > li > ul > li{
+    border: none;
+}
+
+.designDirection .content #value > ul > li > ul > li:last-child{
+    border: none;
+}
+
+
+.designDirection .content hr{
+    width: 89%;
+    margin: 10px 0px;
+    float: right;
+}
+
+
+
+
+
+
+
+/*** uxFlow : 유저 플로우 ***/
+.uxFlow p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.uxFlow img{
+    width: 700px;
+    margin: 0 auto;
+}
+
+
+/*** wireFrame : 와이어프레임 ***/
+.wireFrame p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.wireFrame img{
+    width: 900px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/*** output : 결과 ***/
+.output .content > p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/*** output 1 ***/
+.output .output.one img {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+/*** output 2 ***/
+.output.two #step{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.output.two #step p{
+    margin-right: 10px;
+    float: left;
+}
+
+.output.two #step .step_content{
+    float: right;
+    width: 90%;
+}
+
+.output .output.two img {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+/*** output 3 ***/
+.output.three #step{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.output.three #step p{
+    margin-right: 10px;
+    float: left;
+}
+
+.output.three #step .step_content{
+    float: right;
+    width: 90%;
+}
+
+.output .output.three img {
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+/*** output 4 ***/
+.output.four .wrap{
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.output.four .wrap img{
+    width: 200px;
+    float: left;
+    margin-right: 50px;
+}
+
+
+.output.four .wrap img:last-child{
+    margin-right: 0px;
+}
+
+
+
+/*** output 5 ***/
+.output .output.five img {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+/*** scene last : 프로젝트 wrap up***/
+.scene.last {
+    background-image: url(../img/SHAF/background02.jpg);
+}

@@ -1,0 +1,180 @@
+
+
+.scene.one{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+.scene.one::before{
+    content: ' ';
+        display: block;
+        background-image: url('../img/index/scene08.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        z-index: -10; 
+}
+
+.flip { 
+    width: 500px;
+    height: 230px;
+    position: relative; 
+    perspective: 1100px;
+    margin: 0 auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+} 
+
+.card {
+    width: 100%; 
+    height: 100%; 
+    position: relative;
+    transition: .7s;
+    transform-style: preserve-3d;
+} 
+
+.flip:hover .card {
+  transform: rotateY(180deg);
+}
+
+
+.scene.one #loveIsTrue{
+    -webkit-transform:rotateY(0deg);
+    -webkit-backface-visibility: hidden;
+    width: 100%;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+    
+}
+
+.scene.one #twinkle{
+    width: 45%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes floating {
+    from { transform: translate(-0%, -0%); }
+    65%  { transform: translate(-0%, -5%); }
+    to   { transform: translate(-0%, -0%); }   
+}
+
+
+#back{
+    transform: rotateY(180deg);
+    -webkit-backface-visibility: hidden;
+    border: 1px white solid;
+    padding: 30px 50px;
+    color: white;
+    font-family: 'BhuTuka Expanded One', cursive;
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+#scroll{
+    position: absolute;
+    bottom: 80px;
+    color: white;
+    transform: rotate(-90deg);
+    left: 48%;
+}
+
+#scroll p{
+    float: left;
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-weight: 800;
+}
+
+#scroll p:first-child{
+    position: absolute;
+    animation-name: arrow;
+    animation-duration: 0.8s;
+    animation-timing-function: cubic-bezier(0,0.2,0.7,1);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes arrow{
+    from{
+        left: -25px;
+    }
+    
+    to{
+        left: -40px;
+    }
+}
+
+.scene.two{
+    height: 100vh;
+    background-image: url('../img/index/scene07.jpg');
+    position: relative;
+}
+
+.scene.two h1{
+    font-family: 'EB Garamond', serif;
+    float: right;
+    margin-top: 150px;
+    margin-right: 150px;
+}
+
+.wordCross{
+    display: inline-block;
+    padding: 0px 50px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.words{
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.words:nth-child(2){
+    float: right;
+}
+
+.words p{
+    box-sizing: border-box;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-family: 'EB Garamond', serif;
+}
+
+.words:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.words:first-child p{
+    float: left;
+    border: 1px white solid;
+    border-right: none;
+}
+
+
+.words:nth-child(2) p{
+    border: 1px white solid;
+    border-bottom: none;
+}
+
+.words:nth-child(2) p:last-child{
+    border-bottom: 1px white solid;
+}

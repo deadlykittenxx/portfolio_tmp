@@ -1,0 +1,394 @@
+/******** 공통 스타일 ********/
+#step{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+#step p{
+    margin-right: 10px;
+    float: left;
+}
+
+#step .step_content{
+    float: right;
+    width: 80%;
+}
+
+
+#step > .step_content p:nth-child(3){
+    margin-top: -5px;
+}
+
+/**** scene one : 배경 설명 + 데스크 리서치 *****/
+.scene.one .content:first-child{
+    background-image: url(../img/SHAF/background01.jpg);
+    background-size: cover;
+    padding: 50px;
+}
+
+
+.scene.one .box.left{
+    background-color: rgba(255, 255, 255, 0.4);
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+
+.scene.one .box.right .wrap img{
+    width: 30%;
+    margin-right: 5%;
+    float: left;
+}
+
+.scene.one .box.right .wrap img:last-child{
+    margin-right: 0%;
+}
+
+
+
+
+
+/**** userIntervie : 유저 인터뷰 *****/
+.userInterview .text{
+    text-align: center;
+}
+
+.userInterview .text p{
+    text-align: center;
+}
+
+.userInterview .text .answer{
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+
+#yes{
+    float: left;
+    color: black;
+    margin-right: 20px;
+}
+
+#yes::before {
+    content: '● ';
+    color: #949BF3;
+}
+
+#no{
+    float: left;
+    color: #D4D4D4;
+}
+
+
+.userInterview::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.userInterview .interview > ul{
+    text-align: left;
+    margin-bottom: 15px;
+}
+.userInterview .interview > ul > li:first-child{
+    margin-bottom: 5px;
+}
+
+.userInterview .interview > ul > li:first-child p{
+    font-weight: 500;
+}
+
+.userInterview .interview > ul > li > ul > li p::before{
+    content: '● ';
+    font-weight: 400;
+}
+
+
+
+
+
+
+/*** affinityDiagram : 디자인 어피니티 다이어그램 ***/
+
+.affinityDiagram .content img{
+    height: 30px;
+    width: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.affinityDiagram .content p {
+    text-align: center;
+}
+
+
+.affinityDiagram .content #affinityDiagram{
+    text-align: center;
+}
+
+.affinityDiagram .content #affinityDiagram p{
+    width: 50%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 0.5px solid;
+    border-radius: 600px;
+
+
+}
+
+.affinityDiagram .content #affinityDiagram p:nth-child(2){
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.affinityDiagram .content #affinityDiagram p:nth-child(1):hover{
+    border-color: #949BF3;
+}
+
+.affinityDiagram .content #affinityDiagram p:nth-child(2):hover{
+    border-color: #EF5DA8;
+}
+
+.affinityDiagram .content #affinityDiagram p:nth-child(3):hover{
+    border-color: #EBB8D6;
+}
+
+
+
+
+
+
+
+
+/*** persona : 페르소나 & 져니맵 ***/
+.persona p{
+    text-align: center;
+}
+
+
+.persona #persona{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.persona #persona img{
+    width: 45px;
+    margin: 0 auto;
+}
+
+.persona #persona > p:last-child{
+    text-align: justify;
+    color: #9d9d9d;
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+#journeyMap img{
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+
+
+/*** designDirection : 디자인 다이렉션 ***/
+
+.designDirection .content #painPoint, 
+.designDirection .content #function, 
+.designDirection .content #value {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.designDirection .content #painPoint > p, 
+.designDirection .content #function > p, 
+.designDirection .content #value > p {
+    width: 70px;
+    float: left;
+    margin-right: 0px;
+    text-align: left;
+}
+
+.designDirection .content #painPoint > ul, 
+.designDirection .content #function > ul, 
+.designDirection .content #value > ul {
+    width: 89%;
+    display: inline-block;
+    float: right; 
+}
+
+
+.designDirection .content #painPoint > ul > li, .designDirection .content #function > ul > li, .designDirection .content #value > ul > li{
+    float: left;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+}
+
+.designDirection .content #painPoint > ul > li:nth-child(2), .designDirection .content #function > ul > li:nth-child(2), .designDirection .content #value > ul > li:nth-child(2){
+    margin: 0 5%;
+}
+
+.designDirection .content #painPoint > ul > li:first-child > ul > li:hover, .designDirection .content #function > ul > li:first-child > ul > li:hover{
+    border: 1px #EF5DA8 solid;
+}
+
+.designDirection .content #value > ul > li:first-child > ul > li:first-child > p{
+    color: #EF5DA8;
+}
+
+.designDirection .content #painPoint > ul > li:nth-child(2) > ul > li:hover, .designDirection .content #function > ul > li:nth-child(2) > ul > li:hover{
+    border: 1px #949BF3 solid;
+}
+
+.designDirection .content #value > ul > li:nth-child(2) > ul > li:first-child > p{
+    color: #949BF3;
+}
+
+.designDirection .content #painPoint > ul > li:nth-child(3) > ul > li:hover, .designDirection .content #function > ul > li:nth-child(3) > ul > li:hover{
+    border: 1px #EBB8D6 solid;
+}
+
+.designDirection .content #value > ul > li:nth-child(3) > ul > li:first-child > p{
+    color: #EBB8D6;
+}
+
+.designDirection .content #painPoint > ul > li > ul > li, .designDirection .content #function > ul > li > ul > li, .designDirection .content #value > ul > li > ul > li{
+    box-sizing: border-box;
+    padding: 10px;
+    border: 0.5px black solid;
+    border-radius: 40px;
+    margin-bottom: 10px;
+}
+
+.designDirection .content #painPoint > ul > li > ul > li p, .designDirection .content #function > ul > li > ul > li p, .designDirection .content #value > ul > li > ul > li p{
+    text-align: center;
+}
+
+.designDirection .content #painPoint > ul > li > ul > li:last-child, .designDirection .content #function > ul > li > ul > li:last-child, .designDirection .content #value > ul > li > ul > li:last-child{
+    margin-bottom: 0px;
+}
+
+.designDirection .content #value > ul > li > ul > li{
+    border: none;
+}
+
+.designDirection .content #value > ul > li > ul > li:last-child{
+    border: none;
+}
+
+
+.designDirection .content hr{
+    width: 89%;
+    margin: 10px 0px;
+    float: right;
+}
+
+
+
+
+
+/*** uxFlow : 유저 플로우 ***/
+.uxFlow p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.uxFlow img{
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+
+/*** wireFrame : 와이어프레임 ***/
+.wireFrame p {
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+.wireFrame img{
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+
+
+
+/*** output : 결과 ***/
+.output .content > p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.output h2{
+    margin-top: 50px;
+}
+
+
+
+/*** output 2 ***/
+.output.two img{
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+/*** output 3 ***/
+.output.three img{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+/*** output 4 ***/
+.output.four .wrap{
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.output.four .wrap img{
+    width: 32%;
+    float: left;
+}
+
+.output.four .wrap img:nth-child(2){
+    margin: 0 2%;
+}
+
+
+
+
+/*** output 5 ***/
+.output.five img{
+    padding-bottom: 50px;
+    width: 80%;
+    margin: 30px auto;
+}
+
+
+
+
+
+/******* scene last : 프로젝트 wrap up ********/
+.scene.last{
+    background-image: url(../img/SHAF/background02.jpg);
+    background-position-x: right;
+}
+
+
+
+
+
+

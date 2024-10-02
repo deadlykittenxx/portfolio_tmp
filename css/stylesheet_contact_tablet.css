@@ -1,0 +1,143 @@
+.scene.one{
+    background-image: url('../img/contact/background_contact.jpg');
+    width: 100%;
+    height: 100vh;
+}
+
+.scene.one .text{
+    padding: 0 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+    box-sizing: border-box;
+    position: absolute;
+    
+}
+.scene.one .text p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    position: absolute;
+}
+
+
+.scene.one .text p:first-child{
+    bottom: 25%;
+    left: 15%;
+}
+
+.scene.one .text p:nth-child(2){
+    bottom: 37%;
+    left: 25%;
+}
+
+.scene.one .text p:nth-child(3){
+    bottom: 44%;
+    left: 35%;
+}
+
+.scene.one .text p:nth-child(4){
+    bottom: 54%;
+    left: 45%;
+}
+
+/** here **/
+.scene.one .text p:nth-child(5){
+    bottom: 68%;
+    left: 53%;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.scene.one .text p:nth-child(6){
+    bottom: 59%;
+    left: 63%;
+}
+
+/** there **/
+.scene.one p:nth-child(7){
+    bottom: 64%;
+    left: 76%;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.scene.one p:last-child{
+    bottom: 30%;
+    left: 58%;
+    z-index: 999;
+}
+
+
+
+
+.scene.one .text.sub p{
+    font-family: 'Homemade Apple', cursive;
+    font-size: 14px;
+    position: absolute;
+}
+
+.scene.one .text.sub p:first-child{
+    bottom: 73%;
+    left: 38%;
+}
+
+.scene.one .text.sub p:nth-child(2){
+    bottom: 59%;
+    left: 73%;
+    line-height: 14px;
+}
+
+.scene.one .text.sub p:nth-child(3){
+    bottom: 26%;
+    left: 49%;
+}
+
+
+
+
+
+/******** 데코 ********/
+.scene.one .text.deco img{
+    width: 40px;
+    position: absolute;
+}
+
+.scene.one .text.deco img:first-child{
+    width: 110px;
+    bottom: 65%;
+    left: 49%;
+}
+
+
+.scene.one .text.deco img:nth-child(2){
+    width: 32px;
+    bottom: 69%;
+    left: 62%;
+}
+
+.scene.one .text.deco img:nth-child(3){
+    width: 93px;
+    bottom: 60%;
+    left: 73%;
+}
+
+
+.scene.one .text.deco img:nth-child(4){
+    width: 87px;
+    bottom: 54%;
+    left: 22%;
+}
+
+.scene.one .text.deco img:nth-child(5){
+    width: 87px;
+    bottom: 33%;
+    left: 78%;
+}
+
+.scene.one .text.deco img:nth-child(6){
+    width: 88px;
+    bottom: 27%;
+    left: 68%;
+}

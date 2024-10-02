@@ -1,0 +1,186 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 5rem;
+    font-weight: 100;
+    text-align: left;
+    font-family: 'EB Garamond', serif;
+}
+
+p{
+    font-weight: 200;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 14px;
+}
+
+#header a{
+    color: black !important;
+}
+
+
+/***기본 속성***/
+.content {
+    padding: 0px 100px;
+}
+
+.wrap {
+    width: 100%;
+    height: auto;
+}
+
+.wrap::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.wrap.inner{
+    width: 100%;
+}
+
+.box{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.section{
+    width: 100%;
+    padding-top: 150px;
+}
+
+.subheading{
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+}
+
+hr{
+    color: gainsboro;
+    border: 0.5px solid;
+    margin: 0px 0px 15px 0px;
+}
+
+
+
+
+
+/***프로젝트 개요***/
+#top{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#top .box.left{
+    width: 45%;
+    margin-right: 5%;
+}
+
+#top .box.right ul{
+    float: left;
+}
+
+#top .box.right ul li{
+    margin-bottom: 5px;
+}
+
+#top .box.right ul li:last-child{
+    margin-bottom: 0px;
+}
+
+
+
+
+/*** scene one : 배경 설명 ***/
+.scene.one .box.left{
+    background-color: rgba(255, 255, 255, 0.4);
+    box-sizing: border-box;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.scene.one .text{
+    margin-bottom: 30px;
+}
+
+.scene.one .text:last-child{
+    margin-bottom: 0px;
+}
+
+
+
+
+/*** output : 결과 ***/
+.section.output{
+    padding-bottom: 150px;
+    width: 100% !important;
+}
+
+
+.output hr{
+    padding: 40px 0px;
+    border: none;
+    border-top: 1px dashed gainsboro;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+}
+
+.output h2{
+    font-family: 'Helvetica', sans-serif;
+    margin-bottom: 10px;
+}
+
+.output{
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.output.one{
+    padding-top: 50px;
+}
+
+
+
+
+
+/*** scene last : 프로젝트 wrap up***/
+.scene.last h1{
+    font-size: 3.5rem;
+    font-weight: 100;
+}
+
+.scene.last .box.left{
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.scene.last .box.right{
+    position: relative;
+    height: 100vh;
+}
+
+.scene.last .box.right img:first-child{
+    height: 200px;
+    position: absolute;
+    bottom: 80px;
+    right: -10px;
+    cursor: pointer;
+}
+
+.scene.last .box.right img:last-child{
+    width: 200px;
+    position: absolute;
+    bottom: 80px;
+    right: 30px;
+    cursor: pointer;
+}
+
+
+

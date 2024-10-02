@@ -1,0 +1,250 @@
+
+
+
+/*** scene one : 배경 설명 ***/
+.scene.one {
+    background-image: url(../img/World02/background01.jpg);
+}
+
+
+
+
+/*** deskResearch : 데스크 리서치 ***/
+.section.deskResearch{
+    padding-top: 100px;
+}
+.deskResearch .wrap{
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.deskResearch .wrap.inner{
+    padding-top: 0px;
+}
+
+.deskResearch img{
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+
+.deskResearch img:last-child{
+    margin-right: 0px;
+}
+
+.deskResearch .wrap .wrap.inner .text{
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+
+.deskResearch .wrap .wrap.inner .text:last-child{
+    margin-right: 0%;
+}
+
+
+
+
+/*** userInterview : 유저 인터뷰 ***/
+
+.userInterview .text{
+    text-align: center;
+}
+
+#interview{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#user{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#user > p{
+    float: left;
+    margin-right: 15px;
+}
+
+#user > .interview_content{
+    float: right;
+    width: 80%;
+}
+
+
+
+
+
+/*** journeyMap : 져니맵 ***/
+.journeyMap .text{
+    text-align: center;
+}
+
+.journeyMap img{
+    width: 55%;
+    margin: 0 auto;
+}
+
+.journeyMap .wrap{
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+
+
+
+/*** output : 결과 ***/
+
+
+/** output 01 **/
+.output.one #step{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.output.one #step p{
+    margin-right: 10px;
+    float: left;
+}
+
+.output.one #step .step_content{
+    float: right;
+    width: 90%;
+}
+
+
+.output.one .wrap{
+    width: 700px;
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+
+.output.one img{
+    width: 200px;
+    float: left;
+    margin-right: 50px;
+}
+
+.output.one img:last-child{
+    margin-right: 0;
+}
+
+.output.one .wrap:last-child img{
+    width: 450px;
+    float: none;
+    margin: 0 auto;
+}
+
+.output.one .wrap:last-child img:first-child{
+    margin-bottom: 30px;
+}
+
+
+
+
+/** output 02 **/
+
+.output.two img{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.output.two #step{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.output.two #step p{
+    margin-right: 10px;
+    float: left;
+}
+
+.output.two #step .step_content{
+    float: right;
+    width: 90%;
+}
+
+
+
+
+
+
+/** output 03 **/
+
+.output.three img{
+    width: 200px;
+    float: left;
+    margin-right: 50px;
+}
+
+.output.three .wrap{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.output.three .wrap img:last-child{
+    margin-right: 0px;
+}
+
+.output.three .wrap:last-child{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.output.three .wrap:last-child img:last-child{
+    height: 454px;
+    width: auto;
+}
+
+
+
+
+/*** scene last : 프로젝트 wrap up***/
+.scene.last {
+    background-image: url(../img/World02/background02.jpg);
+}
+
+
+
+
+
+
+/*** navigator : 나비게이터 ***/
+#navigator{
+    position: fixed;
+    right: 100px;
+    display: inline-block;
+    top: 45%;
+    font-family: 'EB Garamond', serif;
+}
+
+#navigator ul{
+    float: left;
+}
+
+#navigator ul:last-child{
+    margin-right: 0px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+
+
+#navigator ul li{
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+#navigator ul li:last-child{
+    margin-bottom: 0;
+}
+
+

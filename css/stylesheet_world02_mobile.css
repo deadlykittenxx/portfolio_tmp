@@ -1,0 +1,164 @@
+
+/**** scene one : 배경 설명 *****/
+
+.scene.one{
+    padding: 70px 0px;
+    background-image: url('../img/World02/background01.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+/**** deskResearch : 데스크 리서치 ****/
+.deskResearch .wrap{
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.deskResearch .wrap img{
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+
+.deskResearch .wrap img:last-child{
+    margin-right: 0px;
+}
+
+.deskResearch .wrap .wrap.inner .text > p:first-child{
+    margin-bottom: -10px;
+}
+
+.deskResearch .wrap .wrap.inner {
+    margin-bottom: -5px;
+}
+
+
+
+
+/**** userInterview  : 유저 인터뷰****/
+#interview #user{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#interview #user > p:first-child{
+    float: left;
+}
+
+#interview #user > .interview_content{
+    float: right;
+    width: 80%;
+}
+
+
+/**** journeyMap : 져니맵 ****/
+.journeyMap img{
+    margin-bottom: 25px;
+}
+
+
+
+/**** output : 결과 ****/
+
+.output.one .wrap{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.output.one img{
+    width: 32%;
+    float: left;
+    margin-right: 2%;
+}
+
+.output.one img:last-child{
+    margin-right: 0%;
+}
+
+#step{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#step > p:first-child{
+    float: left;
+    
+}
+
+#step > .step_content{
+    float: right;
+    width: 80%;
+}
+
+#step > .step_content > p:first-child{
+    margin-bottom: -15px;
+}
+
+.output.one .wrap:last-child img{
+    width: 80%;
+    float: none;
+    margin: 0 auto;
+    image-orientation: none;
+}
+
+.output.one .wrap:last-child img:first-child{
+    margin-bottom: 20px;
+}
+
+
+
+/** output 02 **/
+.output.two{
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+
+
+/** output 03 **/
+.output.three{
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.output.three img{
+    width: 40%;
+    float: left;
+    margin-right: 5%;
+}
+
+.output.three .wrap{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.output.three .wrap img:last-child{
+    margin-right: 0%;
+}
+
+.output.three .wrap:last-child img{
+    width: 30%;
+    margin-right: 5%;
+}
+
+.output.three .wrap:last-child img:last-child{
+    margin-right: 0%;
+}
+
+
+/******* scene last : 프로젝트 wrap up ********/
+.scene.last{
+    background-image: url(../img/World02/background02.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+

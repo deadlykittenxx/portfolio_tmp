@@ -1,0 +1,141 @@
+img{
+    width: 100%;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: 'EB Garamond', serif;
+    font-weight: 100;
+}
+
+hr{
+    color: gainsboro;
+    border: 0.5px solid;
+    margin: 0px 0px 15px 0px;
+}
+
+p{
+    font-weight: 200;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 10px;
+    text-align: justify;
+}
+
+.content{
+    padding: 0px 10px;
+}
+
+#header a{
+    color: black;
+}
+
+.subheading{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.wrap {
+    width: 100%;
+    height: auto;
+}
+
+.wrap::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+
+/**** top : 프로젝트 개요 *****/
+#top{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#top .box.left{
+    margin-bottom: 10px;
+}
+
+#top .box.right ul > li{
+    margin-bottom: 3px;
+}
+
+
+
+
+/**** scene one : 배경 설명 *****/
+.scene.one .text{
+    margin-bottom: 20px;
+}
+
+.scene.one .text > p:first-child {
+    margin-bottom: 5px;
+}
+
+
+.scene.one .box.left{
+    background-color: rgba(255, 255, 255, 0.4);
+    box-sizing: border-box;
+    padding: 20px 20px;
+}
+
+
+
+
+/**** output : 결과 ****/
+
+.output hr{
+    margin-top: 50px;
+    border: none;
+    border-top: 1px dashed gainsboro;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+}
+
+.output h2{
+    font-family: 'Helvetica', sans-serif;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+
+
+
+
+/******* scene last : 프로젝트 wrap up ********/
+.scene.last {
+    padding: 40px 0px;
+    margin-top: 40px;
+    background-size: cover;
+}
+
+.scene.last hr{
+    color: transparent !important;
+}
+
+.scene.last h1{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+
+.scene.last .box.left{
+    background-color: rgba(255, 255, 255, 0.4);
+    box-sizing: border-box;
+    padding: 20px 20px;
+}
+
+.scene.last .box.right img:first-child{
+    display: none !important;
+}
+
+.scene.last .box.right img:last-child{
+    float: right;
+    width: 35%;
+    padding-top: 30px;
+}
